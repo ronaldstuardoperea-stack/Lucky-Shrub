@@ -28,18 +28,40 @@ header > img {
 nav ul {
     list-style: none;
     text-align: center;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
 }
 
 nav li {
     display: inline-block;
 }
 
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
 section {
     display: flex;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+.plant-image {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 article {
     flex: 1;
+    padding: 1rem;
 }
 
 .logo-footer {
@@ -47,6 +69,7 @@ article {
 }
 
 footer {
+    padding: 1rem;
     display: flex;
 
 }
