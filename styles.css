@@ -41,3 +41,17 @@ section {
 article {
     flex: 1;
 }
+
+.logo-footer {
+    width: 50px;
+}
+
+footer {
+    display: flex;
+
+}
+
+footer > div {
+    flex: 1;
+    text-align: center;
+}
